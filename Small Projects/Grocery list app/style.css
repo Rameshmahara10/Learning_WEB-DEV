@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+input {
+    width: 75%;
+    padding: 8px;
+}
+button{
+    padding: 8px 16px;;/*8 px height and 16px length*/
+    margin: 5px;
+    cursor: pointer;/*when mouse point to button it show hand shape*/
+}
+ul {
+    text-align: left;
+    padding: 0; /* inner space in line*/
+}
+li {
+    background: #f2f2f2;
+    margin: 5px 0;/* space between 2 list item*/
+    padding: 8px;
+    list-style: none;/* remove bullet of number at firest*/
+    border-radius: 5px;
+}
